@@ -23,6 +23,7 @@ namespace ProofOfSeries
 		{
 			Random random = new Random();
 
+			// Tweak the settings below as needed
 			const int experimentCount = 20;
 			const int experimentRepeatCount = 1000;
 			const int start = 1000;
