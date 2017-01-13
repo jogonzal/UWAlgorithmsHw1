@@ -40,7 +40,7 @@ namespace ProofOfSeries
 				double battleCountAverageForExperiment = battleCountsForExperiment.Average();
 				double ratio = battleCountAverageForExperiment / pokemonExperimentIndex;
 				ratios.Add(ratio);
-				Console.WriteLine("For {0} pokemon, battleCount was {1}. Ratio {2}.", pokemonExperimentIndex, battleCountAverageForExperiment, ratio);
+				Console.WriteLine("For {0} pokemon (ran {1} times), battleCount was {2}. Ratio {3}.", pokemonExperimentIndex, experimentRepeatCount, battleCountAverageForExperiment, ratio);
 			}
 
 			double ratioAverage = ratios.Average();
